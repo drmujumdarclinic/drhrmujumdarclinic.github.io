@@ -152,7 +152,23 @@
         Welcome to Dr. Mujumdar Clinic! Your trusted partner in quality healthcare since 2008.To book an appointment with Dr H R Mujumdar Please click the Button below. Thank You. Regards Dr Mujumdar Clinic Team
     </marquee>
 </div>
-
+<!-- Google Calendar Appointment Scheduling begin -->
+<link href="https://calendar.google.com/calendar/scheduling-button-script.css" rel="stylesheet">
+<script src="https://calendar.google.com/calendar/scheduling-button-script.js" async></script>
+<script>
+(function() {
+  var target = document.currentScript;
+  window.addEventListener('load', function() {
+    calendar.schedulingButton.load({
+      url: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ2Yg6mR9CILlf6f4Zcvbgx3xEQQb6kYJDWEOGNwaU47zZrUc5IxK96U8e5iI3NnRg03OCFBTT5T?gv=true',
+      color: '#3F51B5',
+      label: 'Book an appointment',
+      target,
+    });
+  });
+})();
+</script>
+<!-- end Google Calendar Appointment Scheduling -->
 </body>
 </html>
       <!-- about section start -->
